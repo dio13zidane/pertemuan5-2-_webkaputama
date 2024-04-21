@@ -216,19 +216,22 @@
 
     #jenis_tinggal {
       padding-left: 4px;
-      margin-left: 0px;
-      width: 92%;
+      margin-left: -20px;
+      margin-top: 0px;
+      width: 94%;
     }
 
     #alat_transportasi {
       width: 635px;
       padding-left: 4px;
+      margin-top: 0px;
     }
 
 
 
     #nama {
       margin-right: 20px;
+      margin-left: -30px;
     }
 
    
@@ -339,7 +342,7 @@
       width: 1325px;
       margin-bottom: 30px;
       margin-top: 20px;
-      height: 70px;
+      height: 99px;
       margin-left: -30px;
       border-radius: 5px;
       border-color: #074aad;
@@ -446,7 +449,7 @@
     <h2><b>Gelombang 1</b></h2>
     <br>
     <p class="text1">Pastikan kembali data yang anda isi sudah benar semua & lengkap sebelum melanjutkan.</p>
-    <p class="text2"><b>Perhatian!</b> field yang bertanda bintang * berarti wajib diisi.</p>
+    <p class="text2"><b>Perhatian!</b>  field yang bertanda bintang * berarti wajib diisi.</p>
   </div>
   </div>
   </div>
@@ -456,7 +459,12 @@
       <autocomplete="off">
         <div class="container py-5">
           <div class="row">
-            <h1 class="atas" style="font-weight: bold;">Data Diri</h1>
+            
+
+            <div class="alert alert-info" style="height: 75px; width: 1325px;  margin-top: -25px; margin-left: 35px; padding-top: 6px; font-size: 40px;" >
+              <b>Data Diri</b>
+              
+            </div>
 
 
             <div class="col-12 col-md-6 mt-4">
@@ -468,7 +476,7 @@
 
             <div class="col-12 col-md-6 mt-4">
               <div class="form-group">
-                <label><b> Nama Lengkap :*</b> </label>
+                <label style="margin-left: -30px;"><b> Nama Lengkap :*</b> </label>
                 <input type="text" name="nama" class="form-control" id="nama">
               </div>
             </div>
@@ -481,7 +489,7 @@
                     <input type="text" name="tempat_lahir" required placeholder="Tempat Lahir" class="form-control ">
                   </div>
                   <div class="col-8">
-                    <input type="date" name="tgl_lahir" required class="form-control ">
+                    <input type="date" name="tgl_lahir" style="width: 850px;" class="form-control ">
                   </div>
                 </div>
               </div>
@@ -571,7 +579,7 @@
 
                     <div class="input-box">
                       <div class="jw">
-                        <label for="jenis_tinggal">Jenis Tinggal :</label><br><small
+                        <label for="jenis_tinggal" style="margin-left: -20px;">Jenis Tinggal :</label><br><small
                           style="font-size: 12px;"><i></i></small></label>
                         <select name="jenis_tinggal" id="jenis_tinggal" class="form-select">
                           <option value="1">Bersama orang tua</option>
@@ -597,7 +605,7 @@
 
                     <div class="input-box">
                       <div class="jw">
-                        <label for="jenis_tinggal">Kewarganegaraan :*</label><br><small
+                        <label for="jenis_tinggal" style="margin-left: -20px;">Kewarganegaraan :*</label><br><small
                           style="font-size: 12px;"><i></i></small></label>
                         <select name="jenis_tinggal" id="jenis_tinggal" class="form-select">
                           <option value="WNI">WNI</option>
@@ -661,33 +669,33 @@
                     <div class="col-md-8">
                       <div class="col-12 mt-4">
                         <div class="form-group">
-                          <label for="jalan">Jalan :</label>
-                          <input type="text" name="jalan" class="form-control " id="jalan">
+                          <label for="jalan" style="margin-left: -25px;">Jalan :</label>
+                          <input type="text" name="jalan" class="form-control " id="jalan" style="margin-left: -25px; width: 900px;">
                         </div>
                       </div>
 
                       <div class="col-12 mt-4">
                         <div class="form-group">
-                          <label for="keldes">Kel/Desa : *</label>
-                          <input type="text" name="keldes" required class="form-control " id="kel/des">
+                          <label for="keldes" style="margin-left: -25px;">Kel/Desa : *</label>
+                          <input type="text" name="keldes" required class="form-control " id="kel/des" style="margin-left: -25px; width: 900px;">
                         </div>
                       </div>
                       <div class="col-12 mt-4">
                         <div class="form-group">
-                          <label for="kecamatan">Kecamatan : *</label>
-                          <input type="text" name="kecamatan" required class="form-control " id="kecamatan">
+                          <label for="kecamatan" style="margin-left: -25px;">Kecamatan : *</label>
+                          <input type="text" name="kecamatan" required class="form-control " id="kecamatan" style="margin-left: -25px; width: 900px;">
                         </div>
                       </div>
                       <div class="col-12 mt-4">
                         <div class="form-group">
-                          <label for="telp">Telp/Hp : *</label>
-                          <input type="number" name="telp" required class="form-control " id="telp">
+                          <label for="telp" style="margin-left: -25px;">Telp/Hp : *</label>
+                          <input type="number" name="telp" required class="form-control " id="telp"style="margin-left: -25px; width: 900px;">
                         </div>
                       </div>
                       <div class="col-12 mt-4">
                         <div class="form-group">
-                          <label for="email">Email :</label>
-                          <input type="email" name="email" class="form-control" id="email">
+                          <label for="email" style="margin-left: -25px;">Email :</label>
+                          <input type="email" name="email" class="form-control" id="email" style="margin-left: -25px; width: 900px;">
                         </div>
                       </div>
                     </div>
@@ -1210,8 +1218,8 @@
     </div>
   </div>
 
-    <div class="copyright">
-      <center style="color: black;margin-top: 140px;">Copyright &copy; SPACE CLUB</center>
+    <div class="cr">
+      <center style="color: black;margin-top: 140px;">Copyright &copy; Dio Abiyyu Zidane Ginting</center>
     </div>
 
     </div>
